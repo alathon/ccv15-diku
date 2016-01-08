@@ -57,7 +57,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\addons\ofxCMU\inc;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxDShow\src;..\..\..\addons\ofxNCore\src\Calibration;..\..\..\addons\ofxMultiplexer\inc;..\..\..\addons\ofxCameraBase\inc;..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\quicktime\include;..\..\..\libs\Poco\include;..\..\..\addons;..\..\..\addons\ofxNetwork\src;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxObjLoader\src;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\include\ip;..\..\..\addons\ofxOsc\libs\oscpack\include\osc;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxVectorGraphics\src;..\..\..\addons\ofxVectorGraphics\libs;..\..\..\addons\ofxVectorMath\src;..\..\..\addons\ofxXMLSettings\libs;..\..\..\addons\ofxXMLSettings\src;..\..\..\addons\ofx3DModelLoader\src;..\..\..\addons\ofx3DModelLoader\src\3DS;..\..\..\addons\ofxPS3\src;..\..\..\addons\ofxFFMV\src;..\..\..\addons\ofxNCore\src;..\..\..\addons\ofxDSVL\src;..\..\..\addons\ofxFiducialFinder\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\addons\ofxGS3\inc;..\..\..\addons\ofxGS3\src;..\..\..\addons\ofxCMU\inc;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxDShow\src;..\..\..\addons\ofxNCore\src\Calibration;..\..\..\addons\ofxMultiplexer\inc;..\..\..\addons\ofxCameraBase\inc;..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\quicktime\include;..\..\..\libs\Poco\include;..\..\..\addons;..\..\..\addons\ofxNetwork\src;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxObjLoader\src;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\include\ip;..\..\..\addons\ofxOsc\libs\oscpack\include\osc;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxVectorGraphics\src;..\..\..\addons\ofxVectorGraphics\libs;..\..\..\addons\ofxVectorMath\src;..\..\..\addons\ofxXMLSettings\libs;..\..\..\addons\ofxXMLSettings\src;..\..\..\addons\ofx3DModelLoader\src;..\..\..\addons\ofx3DModelLoader\src\3DS;..\..\..\addons\ofxPS3\src;..\..\..\addons\ofxFFMV\src;..\..\..\addons\ofxNCore\src;..\..\..\addons\ofxDSVL\src;..\..\..\addons\ofxFiducialFinder\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;POCO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -71,7 +71,7 @@
     <Link>
       <AdditionalDependencies>1394camerad.lib;OpenGL32.lib;GLu32.lib;vfw32.lib;kernel32.lib;setupapi.lib;glut32.lib;rtAudioD.lib;videoInput.lib;libfreetype.lib;FreeImage.lib;qtmlClient.lib;dsound.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;GLee.lib;fmodex_vc.lib;glu32.lib;PocoFoundationmtd.lib;PocoNetmtd.lib;PocoUtilmtd.lib;PocoXMLmtd.lib;Ws2_32.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cv110d.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cvaux110d.lib;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010\cxcore110d.lib;..\..\..\addons\ofxOsc\libs\oscpack\lib\vs2010\oscpackd.lib;..\..\..\addons\ofxPS3\lib\CLEyeMulticam.lib;..\..\..\addons\ofxFFMV\lib\PGRFlyCapture.lib;..\..\..\addons\ofxFFMV\lib\pgrflycapturegui.lib;..\..\..\addons\ofxKinect\lib\CLNUIDevice.lib;..\..\..\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)CCV_debug.exe</OutputFile>
-      <AdditionalLibraryDirectories>..\..\..\addons\ofxCMU\lib;..\..\..\libs\glut\lib\vs2010;..\..\..\libs\rtAudio\lib\vs2010;..\..\..\libs\freeImage\lib\vs2010;..\..\..\libs\freetype\lib\vs2010;..\..\..\libs\fmodex\lib\vs2010;..\..\..\libs\videoInput\lib\vs2010;..\..\..\libs\glee\lib\vs2008;..\..\..\libs\glu\lib\vs2010;..\..\..\libs\Poco\lib\vs2010;..\..\..\libs\quicktime\lib\vs2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\addons\ofxGS3\lib;..\..\..\addons\ofxCMU\lib;..\..\..\libs\glut\lib\vs2010;..\..\..\libs\rtAudio\lib\vs2010;..\..\..\libs\freeImage\lib\vs2010;..\..\..\libs\freetype\lib\vs2010;..\..\..\libs\fmodex\lib\vs2010;..\..\..\libs\videoInput\lib\vs2010;..\..\..\libs\glee\lib\vs2008;..\..\..\libs\glu\lib\vs2010;..\..\..\libs\Poco\lib\vs2010;..\..\..\libs\quicktime\lib\vs2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>atlthunk.lib; LIBC.lib; LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(TargetDir)$(TargetName)_debugInfo.pdb</ProgramDatabaseFile>
@@ -122,6 +122,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\addons\ofxGS3\src\ofxGS3.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\testApp.cpp" />
     <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
@@ -192,6 +193,19 @@
     <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinect.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\BusManager.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\Camera.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\CameraBase.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\Error.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\FlyCapture2.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\FlyCapture2Defs.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\FlyCapture2GUI.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\FlyCapture2Platform.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\Image.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\ImageStatistics.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\PGRDirectShow.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\inc\Utilities.h" />
+    <ClInclude Include="..\..\..\addons\ofxGS3\src\ofxGS3.h" />
     <ClInclude Include="src\testApp.h" />
     <ClInclude Include="..\..\..\addons\ofAddons.h" />
     <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
@@ -300,6 +314,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2d.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2d_v100.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2GUI.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2GUId.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2GUId_v100.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2GUI_v100.lib" />
+    <Library Include="..\..\..\addons\ofxGS3\lib\FlyCapture2_v100.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

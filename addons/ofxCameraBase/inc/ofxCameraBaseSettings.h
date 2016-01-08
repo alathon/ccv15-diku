@@ -19,6 +19,7 @@ typedef enum
 	PS3,
 	CMU,
 	FFMV,
+	GS3,
 	DIRECTSHOW,
 	KINECT
 } CAMERATYPE;
