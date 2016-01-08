@@ -1,0 +1,101 @@
+﻿Build started 08-01-2016 13:35:42.
+     1>Project "C:\Users\alathon\Desktop\ccv15-master\apps\addonsExamples\VS2010\Community Core Vision.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\alathon\Desktop\ccv15-master\apps\addonsExamples\VS2010\bin\Community Core Vision.exe) does not match the Linker's OutputFile property value (C:\Users\alathon\Desktop\ccv15-master\apps\addonsExamples\VS2010\bin\CCV.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Community Core Vision) does not match the Linker's OutputFile property value (CCV). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\CCV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\openFrameworksCompiled\lib\vs2010 /LIBPATH:..\..\..\addons\ofxCMU\lib /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\freeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2008 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 1394camera.lib OpenGL32.lib vfw32.lib GLu32.lib kernel32.lib setupapi.lib glut32.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmt.lib PocoNetmt.lib PocoUtilmt.lib PocoXMLmt.lib Ws2_32.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2008\cv110.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2008\cvaux110.lib ..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2008\cxcore110.lib ..\..\..\addons\ofxOsc\libs\oscpack\lib\vs2010\oscpack.lib ..\..\..\addons\ofxKinect\lib\CLNUIDevice.lib ..\..\..\addons\ofxFFMV\lib\PGRFlyCapture.lib ..\..\..\addons\ofxFFMV\lib\pgrflycapturegui.lib ..\..\..\addons\ofxPS3\lib\CLEyeMulticam.lib ..\..\..\libs\openFrameworksCompiled\lib\vs2008\openframeworksLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:msvcrtd.lib /MANIFEST /ManifestFile:"obj\Release\Community Core Vision.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\alathon\Desktop\ccv15-master\apps\addonsExamples\VS2010\bin\Community Core Vision.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\Community Core Vision.lib" /MACHINE:X86 "obj\Release\Community Core Vision.res"
+         obj\Release\main.obj
+         obj\Release\testApp.obj
+         obj\Release\ofxXmlSettings.obj
+         obj\Release\tinyxml.obj
+         obj\Release\tinyxmlerror.obj
+         obj\Release\tinyxmlparser.obj
+         obj\Release\ofxTCPClient.obj
+         obj\Release\ofxTCPManager.obj
+         obj\Release\ofxTCPServer.obj
+         obj\Release\ofxUDPManager.obj
+         obj\Release\ofxOscBundle.obj
+         obj\Release\ofxOscMessage.obj
+         obj\Release\ofxOscReceiver.obj
+         obj\Release\ofxOscSender.obj
+         obj\Release\ofxCvColorImage.obj
+         obj\Release\ofxCvContourFinder.obj
+         obj\Release\ofxCvFloatImage.obj
+         obj\Release\ofxCvGrayscaleImage.obj
+         obj\Release\ofxCvImage.obj
+         obj\Release\ofxCvShortImage.obj
+         obj\Release\ofxMatrix3x3.obj
+         obj\Release\ofxThread.obj
+         obj\Release\ofxDirList.obj
+         obj\Release\ofxffmv.obj
+         obj\Release\Calibration.obj
+         obj\Release\CalibrationUtils.obj
+         obj\Release\TUIO.obj
+         obj\Release\ofxGui.obj
+         obj\Release\ofxGuiArrow.obj
+         obj\Release\ofxGuiButton.obj
+         obj\Release\ofxGuiColor.obj
+         obj\Release\ofxGuiFiles.obj
+         obj\Release\ofxGuiGlobals.obj
+         obj\Release\ofxGuiGrid.obj
+         obj\Release\ofxGuiImage.obj
+         obj\Release\ofxGuiKnob.obj
+         obj\Release\ofxGuiLabel.obj
+         obj\Release\ofxGuiMatrix.obj
+         obj\Release\ofxGuiObject.obj
+         obj\Release\ofxGuiPanel.obj
+         obj\Release\ofxGuiPoints.obj
+         obj\Release\ofxGuiRadar.obj
+         obj\Release\ofxGuiScope.obj
+         obj\Release\ofxGuiSlider.obj
+         obj\Release\ofxGuiSwitch.obj
+         obj\Release\ofxGuiXYPad.obj
+         obj\Release\TouchMessenger.obj
+         obj\Release\CPUImageFilter.obj
+         obj\Release\GPUImageFilter.obj
+         obj\Release\ShaderProgram.obj
+         obj\Release\ofxNCoreVision.obj
+         obj\Release\ContourFinder.obj
+         obj\Release\Tracking.obj
+         obj\Release\TemplateUtils.obj
+         obj\Release\ofxPS3.obj
+         obj\Release\ofxFiducialFinder.obj
+         obj\Release\ofxFiducialTracker.obj
+         obj\Release\tiled_bernsen_threshold.obj
+         obj\Release\fidtrackX.obj
+         obj\Release\segment.obj
+         obj\Release\treeidmap.obj
+         obj\Release\ofxCameraBase.obj
+         obj\Release\ofxGUIDHelper.obj
+         obj\Release\ofxMultiplexer.obj
+         obj\Release\ofxMultiplexerManager.obj
+         obj\Release\ofxCMUCamera.obj
+         obj\Release\ofxDShow.obj
+         obj\Release\ofxKinect.obj
+     1>videoInput.lib(videoInput.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in main.obj
+     1>libcpmtd.lib(concurrent_vector.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in main.obj
+     1>libcpmtd.lib(cds_cache_aligned_allocator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in main.obj
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::operator+<char,struct std::char_traits<char>,class std::allocator<char> >(char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) bool __cdecl std::operator!=<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??$?9DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >::`vbase destructor'(void)" (__imp_??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >::str(void)const " (__imp_?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) struct std::_Smanip<int> __cdecl std::setprecision(int)" (__imp_?setprecision@std@@YA?AU?$_Smanip@H@1@H@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >(int)" (__imp_??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sgetn(char *,int)" (__imp_?sgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHPADH@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::fpos<int> __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pubseekoff(long,int,int)" (__imp_?pubseekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@H@2@JHH@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_filebuf@DU?$char_traits@D@std@@@2@XZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::is_open(void)const " (__imp_?is_open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QBE_NXZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::ios_base::width(int)" (__imp_?width@ios_base@std@@QAEHH@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,int)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHPBDH@Z)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBEHXZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (__imp_?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (__imp_?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ)
+     1>openframeworksLib.lib(ofUtils.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::swap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (__imp_?swap@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXAAV12@@Z)
+     1>libcpmtd.lib(concurrent_vector.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(cds_cache_aligned_allocator.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>bin\CCV.exe : fatal error LNK1120: 17 unresolved externals
+     1>Done Building Project "C:\Users\alathon\Desktop\ccv15-master\apps\addonsExamples\VS2010\Community Core Vision.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.41
